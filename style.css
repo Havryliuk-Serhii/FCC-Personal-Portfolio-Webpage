@@ -25,23 +25,57 @@ body{
     top: 0;
     left: 0;
     z-index: 5;
+    background: transparent;
 }
 ul, li{
     list-style: none;
     text-decoration: none;
-    margin: 20px;
+    margin: 10px;
 }
 .nav-list{
     display: flex;
     margin-right: 2rem;
 }
+.nav-item{
+    color: #ffffff;
+}
+.nav-item:hover{
+    color: #ffffff;
+    text-shadow: 4px 4px 10px #000;
+}
 section{
     width: 100%;
     height: 100vh;
 }
-.welcome-section{
+.hero{
     background-image: url(https://live.staticflickr.com/8601/15891138064_6afc7f97c7_h.jpg);
 }
-.contact-section{
+h1.title{
+    color: #ffffff;
+    font-size: 5rem;
+}
+h2.title{
+    color: #ffffff;
+    text-align: center;
+}
+.text-center{
+    position: absolute;
+    margin-top: 15%;
+    left: 20%;
+    z-index: 2;
+}
+.description{
+    color: #ffffff;
+    position: absolute;
+    margin-top: 25%;
+    left: 40%;
+    font-size: 3rem;
+}
+.section-title{
+   
+    
+}
+
+#contact{
     background-image: url(https://live.staticflickr.com/1025/5183945769_32b5c24806_h.jpg);
 }
