@@ -38,6 +38,7 @@ ul, li{
 }
 .nav-item{
     color: #ffffff;
+    text-shadow: 2px 2px 1px #1f1f1f;
 }
 .nav-item:hover{
     color: #ffffff;
@@ -72,10 +73,36 @@ h2.title{
     font-size: 3rem;
 }
 .section-title{
-   
+    font-size: 3rem;
     
 }
-
 #contact{
     background-image: url(https://live.staticflickr.com/1025/5183945769_32b5c24806_h.jpg);
+}
+.contact-links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 980px;
+    flex-wrap: wrap;
+    margin-top: 15%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+}
+.contact-details {
+    color: #ffffff;
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+.footer{
+    background-color: #b1b1b1;
+    z-index: 4;  
+}
+.content-center{
+    text-align: center;
 }
