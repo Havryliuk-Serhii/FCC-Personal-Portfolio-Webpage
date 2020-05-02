@@ -50,6 +50,7 @@ section{
 }
 .hero{
     background-image: url(https://live.staticflickr.com/8601/15891138064_6afc7f97c7_h.jpg);
+    background-size: cover;
 }
 h1.title{
     color: #ffffff;
@@ -78,6 +79,7 @@ h2.title{
 }
 #contact{
     background-image: url(https://live.staticflickr.com/1025/5183945769_32b5c24806_h.jpg);
+    background-size: cover;
 }
 .contact-links {
     display: flex;
